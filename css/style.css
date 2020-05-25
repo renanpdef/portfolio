@@ -1428,14 +1428,22 @@ input[type="text"] {
 @media (max-width: 640px){
 
 	#mu-header.mu-fixed-nav {
-		padding: 5px 0;
-	}
+    padding: 2px 0;
+  }
+  
+  .container {
+    margin-top: 10px;
+  }
+
+  .section-padding {
+    padding: 2em 0;
+  }
 }
 
 @media (max-width: 480px) {
 
 	#mu-header {
-		padding: 10px 0;
+		padding: 2px 0;
 	}
 
 	.navbar-default .navbar-brand, 
@@ -1451,5 +1459,5 @@ input[type="text"] {
 
 	.navbar-toggle .icon-bar {
 		width: 18px;
-	}
+  }
 }
