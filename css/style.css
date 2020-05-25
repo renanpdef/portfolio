@@ -1302,47 +1302,18 @@ input[type="text"] {
   left: 0;
   right: 0;
   top: 0;
-  padding: 25px 0;
+  padding: 5px 0;
   z-index: 999;
   transition: all 0.5s;
+  /* background-color: #000361; */
 }
 
 #mu-header.mu-fixed-nav {
 	width: 100%;
 	position: fixed;
-	padding: 15px 0;
+  padding: 5px 0;
+  background-color: #000361;
 }
-
-/* @media (min-width: 768px) {
-  .mu-container {
-      width: 750px;
-  }
-}
-@media (min-width: 1200px) {
-  .mu-container {
-      width: 1170px;
-  }
-}
-
-@media (min-width: 992px){
-  .mu-container {
-      width: 970px;
-  }
-}
-
-.mu-container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.container-fluid {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-} */
 
 .navbar-default .navbar-brand, 
 .navbar-default .navbar-brand:hover, 
@@ -1405,16 +1376,6 @@ input[type="text"] {
 	transform: scale(1);
 }
 
-button {
-	padding: 5px 15px;
-	border: none;
-}
-
-button:focus {
-	outline: none;
-	border: none;
-}
-
 .mu-menu {
 	margin-top: 4px;
 }
@@ -1429,16 +1390,6 @@ button:focus {
 	.navbar-default .mu-menu li a {
 		margin: 10px 12px 5px;
 	}
-
-	.mu-about-content-right {
-		margin-top: 0;
-	}
-
-	.mu-skill-progress-bar h3 {
-		margin-top: 0;
-	}
-
-	
 }
 
 @media (max-width: 991px) {
@@ -1447,48 +1398,6 @@ button:focus {
 		font-size: 14px;
 		margin: 10px 5px;
 	}	
-
-	.mu-primary-btn {
-		font-size: 14px;
-		padding: 12px 22px;
-	}
-
-	.mu-simplefilter li{
-		margin-bottom: 10px;
-	}
-
-	.mu-about-header,
-	.mu-service-header,
-	.mu-contact-header {
-		padding: 0;
-	}
-	 
-	.mu-featured-area {
-		padding: 28% 5%;
-	}
-
-	.mu-about-content-left img{
-		width: 100%;
-	}
-
-	.mu-about-content-right {
-		margin-top: 50px;
-	}
-
-	.mu-filter-item-content {
-		padding-top: 18%;
-	}
-
-	.filtr-item h4 {
-		font-size: 16px;
-	}
-
-	.mu-testimonial-slide li.slick-slide,
-	.mu-contact-content {
-		padding: 0 50px;
-	}
-
-		
 }
 
 @media (max-width: 767px) {
@@ -1514,61 +1423,13 @@ button:focus {
 	.navbar-default .mu-menu li a {
 		display: inline-block;
 	}
-
-	.mu-team-content .row > div {
-		width: 49.5%;
-		float: left;
-	}
-
-	.mu-testimonial-slide li {
-		padding: 0 15px;
-	}
-
-	.mu-filter-item-content {
-		padding-top: 25%;
-	}
-
-	.mu-contact-top-single {
-		margin-bottom: 25px;
-	}
-	
-		
 }
 
 @media (max-width: 640px){
 
 	#mu-header.mu-fixed-nav {
-		padding: 10px 0;
+		padding: 5px 0;
 	}
-	
-	.mu-featured-slider-content {
-		left: 0;
-		right: 0;
-		bottom: 0;
-		top: 30%;
-		padding: 0 10px;
-	}
-
-	.mu-featured-slider-content h2 {
-		font-size: 20px;
-		margin-bottom: 5px;
-	}
-
-	.mu-featured-slider-content p {
-		font-size: 12px;
-	}
-
-	.mu-primary-btn {
-		font-size: 12px;
-		padding: 10px 12px;
-		margin-top: 15px;
-	}
-
-	.slick-dots {
-		bottom: 15px;
-	}
-			
-
 }
 
 @media (max-width: 480px) {
@@ -1591,59 +1452,4 @@ button:focus {
 	.navbar-toggle .icon-bar {
 		width: 18px;
 	}
-
-	h2{
-		font-size: 25px;
-	}
-
-	.mu-heading-title {
-		margin-bottom: 10px;
-	}
-
-	.mu-about-content-single h4 {
-		margin-bottom: 18px;
-	}
-
-	.mu-simplefilter li {
-		padding: 1rem 1.3rem;
-		font-size: 14px;
-	}
-
-	.mu-team-social-info a {
-		width: 35px;
-		height: 35px;
-		font-size: 16px;
-		line-height: 35px;
-	}
-
-	.mu-contact-form button {
-		width: 100%;
-	}
-
-	.filtr-item h4 {
-		font-size: 14px;
-	}
-
-	.mu-featured-area h1 {
-		font-size: 40px;
-	}
-
-	.mu-featured-slider p, 
-	#typed,
-	#typed span {
-		font-size: 18px;
-	}
-
-	.mu-featured-content p {
-		font-size: 14px;
-	}
-
-	.mu-filter-item-content {
-		padding-top: 20%;
-	}
-
-	.mu-featured-area {
-		padding: 20% 5%;
-	}	
-	
 }
