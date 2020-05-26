@@ -1384,6 +1384,10 @@ input[type="text"] {
   display: none;
 }
 
+.margin-row {
+  margin-bottom: -3em;
+}
+
 @media (max-width: 1199px) {
 
 	.navbar-brand img {
@@ -1443,12 +1447,8 @@ input[type="text"] {
     padding: 2px 0;
   }
   
-  .container {
-    margin-top: 10px;
-  }
-
   .section-padding {
-    padding: 2em 0;
+    padding-top: 2em;
   }
 }
 
