@@ -1380,6 +1380,10 @@ input[type="text"] {
 	margin-top: 4px;
 }
 
+.line-skill {
+  display: none;
+}
+
 @media (max-width: 1199px) {
 
 	.navbar-brand img {
@@ -1397,7 +1401,15 @@ input[type="text"] {
 	.navbar-default .mu-menu li a {
 		font-size: 14px;
 		margin: 10px 5px;
-	}	
+  }	
+  
+  .circular-skill {
+    display: none;
+  }
+
+  .line-skill {
+    display: inline;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1422,7 +1434,7 @@ input[type="text"] {
 
 	.navbar-default .mu-menu li a {
 		display: inline-block;
-	}
+  }
 }
 
 @media (max-width: 640px){
