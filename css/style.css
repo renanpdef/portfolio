@@ -1388,6 +1388,14 @@ input[type="text"] {
   margin-bottom: -3em;
 }
 
+#fh5co-consult h2 {
+  color: #fff;
+}
+
+#fh5co-consult .form-control{
+  background-color: #fff;
+}
+
 @media (max-width: 1199px) {
 
 	.navbar-brand img {
